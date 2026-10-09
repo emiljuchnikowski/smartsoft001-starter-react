@@ -1,0 +1,11 @@
+node_modules
+dist
+.nx
+coverage
+
+# Local configuration, copied from .env.example
+.env
+
+# Playwright output
+test-results
+playwright-report
