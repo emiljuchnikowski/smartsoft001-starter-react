@@ -1,7 +1,7 @@
 # smartsoft001 React starter
 
-One entity, the whole loop, on `@smartsoft001/react-stack@2.202.0` and
-`@smartsoft001/nestjs-stack@2.202.0`: a React frontend on `@smartsoft001/crud-shell-react` with a
+One entity, the whole loop, on `@smartsoft001/react-stack@2.203.0` and
+`@smartsoft001/nestjs-stack@2.203.0`: a React frontend on `@smartsoft001/crud-shell-react` with a
 list page, an item page and a login, and a NestJS API on `@smartsoft001/crud-shell-nestjs`,
 `@smartsoft001/mongo` and `@smartsoft001/auth-shell-nestjs`. It is the smallest application that
 still uses the framework end to end, as a workspace of its own.
