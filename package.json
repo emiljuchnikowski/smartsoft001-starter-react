@@ -2,7 +2,7 @@
   "name": "smartsoft001-starter-react",
   "version": "0.0.0",
   "private": true,
-  "description": "One entity, end to end, on @smartsoft001/react-stack and @smartsoft001/nestjs-stack 2.204.0: a React frontend and a NestJS API. Generated from docs/examples/app of the framework repository on every release.",
+  "description": "One entity, end to end, on @smartsoft001/react-stack and @smartsoft001/nestjs-stack 2.205.0: a React frontend and a NestJS API. Generated from docs/examples/app of the framework repository on every release.",
   "scripts": {
     "start": "nx serve web",
     "start:api": "nx serve api",
@@ -10,8 +10,8 @@
     "e2e": "nx e2e web-e2e"
   },
   "dependencies": {
-    "@smartsoft001/nestjs-stack": "2.204.0",
-    "@smartsoft001/react-stack": "2.204.0",
+    "@smartsoft001/nestjs-stack": "2.205.0",
+    "@smartsoft001/react-stack": "2.205.0",
     "@nestjs/axios": "^4.0.1",
     "@nestjs/common": "^11.1.5",
     "@nestjs/core": "11.2.1",
