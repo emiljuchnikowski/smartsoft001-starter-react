@@ -6,11 +6,43 @@
     "build": {
       "cache": true
     },
-    "@nx/jest:jest": {
-      "cache": true,
+    "test": [
+      {
+        "filter": {
+          "plugin": "@nx/jest/plugin"
+        },
+        "inputs": [
+          "default",
+          "^default",
+          "{workspaceRoot}/jest.preset.js"
+        ],
+        "options": {
+          "passWithNoTests": true
+        }
+      }
+    ]
+  },
+  "plugins": [
+    {
+      "plugin": "@nx/eslint/plugin",
       "options": {
-        "passWithNoTests": true
+        "targetName": "lint"
+      }
+    },
+    {
+      "plugin": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
+    },
+    {
+      "plugin": "@nx/webpack/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "previewTargetName": "preview",
+        "serveStaticTargetName": "serve-static",
+        "serveTargetName": "serve"
       }
     }
-  }
+  ]
 }

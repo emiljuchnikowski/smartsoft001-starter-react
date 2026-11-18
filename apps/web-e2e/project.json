@@ -29,11 +29,11 @@
       }
     },
     "lint": {
-      "executor": "@nx/eslint:lint",
       "options": {
-        "lintFilePatterns": [
-          "apps/web-e2e/**/*.{ts,mjs}"
-        ]
+        "args": [
+          "\"**/*.{ts,mjs}\""
+        ],
+        "command": "eslint"
       }
     }
   }
