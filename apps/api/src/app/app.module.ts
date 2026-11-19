@@ -9,8 +9,8 @@ import { AppExceptionFilter } from '@smartsoft001/nestjs';
 
 import { Note } from '@app/model';
 
-import { UsersSeed } from './users.seed';
 import { API_CONFIG, apiConfig } from '../config';
+import { UsersSeed } from './users.seed';
 
 const config = apiConfig();
 

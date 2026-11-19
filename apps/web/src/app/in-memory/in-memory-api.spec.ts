@@ -7,13 +7,13 @@ import { SmartHttpClient, SmartHttpError } from '@smartsoft001/react';
 
 import { Note } from '@app/model';
 
+import { AUTH_CLIENT_ID, TOKEN_URL } from '../auth/login.service';
+import { notesConfig } from '../notes/notes.config';
 import {
   createInMemoryApi,
   DEMO_CREDENTIALS,
   DEMO_NOTES_KEY,
 } from './in-memory-api';
-import { AUTH_CLIENT_ID, TOKEN_URL } from '../auth/login.service';
-import { notesConfig } from '../notes/notes.config';
 
 interface IList {
   data: Note[];

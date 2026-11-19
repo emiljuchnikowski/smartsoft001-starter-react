@@ -7,7 +7,7 @@ export default [
     rules: {
       // The app's own alias (`@app/model`) sorts after the framework packages,
       // the same way a scaffolded workspace orders its `@<prefix>/**` imports.
-      'import/order': [
+      'import-x/order': [
         'error',
         {
           'newlines-between': 'always',

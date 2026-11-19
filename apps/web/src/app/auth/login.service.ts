@@ -42,7 +42,7 @@ export class LoginService {
 
       this.authService.setToken(token);
     } catch (error) {
-      throw new Error(getErrorMessage(error));
+      throw new Error(getErrorMessage(error), { cause: error });
     }
   }
 

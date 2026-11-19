@@ -1,5 +1,5 @@
 import nx from '@nx/eslint-plugin';
-import importPlugin from 'eslint-plugin-import';
+import importX from 'eslint-plugin-import-x';
 
 export default [
   ...nx.configs['flat/base'],
@@ -10,13 +10,13 @@ export default [
   },
   {
     plugins: {
-      import: importPlugin,
+      'import-x': importX,
     },
   },
   {
     files: ['**/*.ts', '**/*.js'],
     rules: {
-      'import/order': [
+      'import-x/order': [
         'error',
         {
           'newlines-between': 'always',

@@ -3,10 +3,10 @@
  */
 import { SmartHttpError } from '@smartsoft001/react';
 
-import { IN_MEMORY_API_PROVIDERS } from './in-memory-api.providers';
-import { IN_MEMORY_API_PROVIDERS as DEMO_PROVIDERS } from './in-memory-api.providers.demo';
 import { AUTH_CLIENT_ID, TOKEN_URL } from '../auth/login.service';
 import { notesConfig } from '../notes/notes.config';
+import { IN_MEMORY_API_PROVIDERS } from './in-memory-api.providers';
+import { IN_MEMORY_API_PROVIDERS as DEMO_PROVIDERS } from './in-memory-api.providers.demo';
 
 describe('web: IN_MEMORY_API_PROVIDERS', () => {
   let network: jest.SpyInstance;
