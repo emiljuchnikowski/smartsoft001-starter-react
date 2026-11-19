@@ -19,6 +19,20 @@
         "options": {
           "passWithNoTests": true
         }
+      },
+      {
+        "filter": {
+          "plugin": "@nx/jest/plugin",
+          "projects": [
+            "*api"
+          ]
+        },
+        "options": {
+          "env": {
+            "NODE_OPTIONS": "--experimental-vm-modules",
+            "TS_NODE_COMPILER_OPTIONS": "{\"moduleResolution\":\"node10\",\"module\":\"commonjs\",\"customConditions\":null}"
+          }
+        }
       }
     ]
   },
